@@ -11,11 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        configurarLayout()
     }
 
     @IBAction func botaoPressionado(_ sender: Any) {
     }
     
+    func configurarLayout() {
+        navigationItem.hidesBackButton = true
+    }
 }
 
